@@ -51,7 +51,7 @@ namespace WebApplication10.User_Info
                     customer.Customer_Name = displayname.ToString();
                     customer.Email = DisplayEmail.ToString();
                     customer.Customer_Password = FBId.ToString();
-                    customer.Phone_No = 9876543546;
+                    customer.Phone_No = "phone no";
 
                     context.Customer_Info.Add(customer);
                     context.SaveChanges();
