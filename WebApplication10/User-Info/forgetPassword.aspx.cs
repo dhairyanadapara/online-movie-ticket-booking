@@ -53,7 +53,7 @@ namespace WebApplication10.User_Info
                     message.Send();
 
                     //MailMessage msg = new MailMessage();
-                    //msg.From = new MailAddress("dhairyanadapara@outlook.com");
+                    //msg.From = new MailAddress("mail address");
                     //msg.To.Add(email);
                     //msg.Subject = " Recover your Password";
                     //msg.Body = ("Your Username is:" + username + "<br/><br/>" + "Your Password is:" + password);
@@ -62,8 +62,8 @@ namespace WebApplication10.User_Info
                     //SmtpClient smt = new SmtpClient();
                     //smt.Host = "smtp.gmail.com";
                     //System.Net.NetworkCredential ntwd = new NetworkCredential();
-                    //ntwd.UserName = "dhairyanadapara@outlook.com";
-                    //ntwd.Password = "#dpn@26011998"; 
+                    //ntwd.UserName = "email address";
+                    //ntwd.Password = "password"; 
                     //smt.UseDefaultCredentials = true;
                     //smt.Credentials = ntwd;
                     //smt.Port = 587;
